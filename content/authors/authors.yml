@@ -1,0 +1,20 @@
+- name: Christian Fuss
+  featured: false
+  bio: |
+    Written by Christian Fuss who lives and works in Berlin and sometimes Cape Town.
+    He loves to find elegant solutions for all kinds of challenges.
+  avatar: ./avatars/christian.png
+  social:
+    - url: https://unsplash.com
+    - url: https://stackoverflow.com
+    - url: https://github.com
+- name: Ruben Zimmermann
+  featured: true
+  bio: |
+    Written by Ruben Zimmermann who lives and works in Leutershausen.
+    He loves to discuss.
+  avatar: ./avatars/ruben.png
+  social:
+    - url: https://unsplash.com
+    - url: https://stackoverflow.com
+    - url: https://github.com
