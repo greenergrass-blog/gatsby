@@ -6,7 +6,8 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "npm install && gatsby build"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.13.2",
