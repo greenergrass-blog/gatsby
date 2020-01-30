@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "Change Request",
-    name: `Change Request`,
+    title: "Greener Grass",
+    name: `Greener Grass`,
     siteUrl: `https://change-request.github.io`,
     description: `A blog about software engineering`,
 
     // important to set the main text that appears in the hero
     hero: {
-      heading: `Change Your Skill Set. Continuously.`,
+      heading: `Thoughts about the other side of the fence`,
       maxWidth: 652
     },
     social: [
@@ -38,8 +38,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Change Request Blog`,
-        short_name: `Change Request`,
+        name: `Greener Grass Blog`,
+        short_name: `Greener Grass`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
