@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "change-request-blog",
+  "name": "greenergrass-blog",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "dev": "gatsby develop -p 9090 -o",
     "clean": "gatsby clean",
     "deploy": "npm install && gatsby clean && gatsby build"
   },
@@ -13,7 +13,22 @@
     "@narative/gatsby-theme-novela": "^0.13.2",
     "gatsby": "^2.19.7",
     "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-typescript": "^2.1.26",
+    "gatsby-plugin-typography": "^2.3.21",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.3",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
   }
 }
