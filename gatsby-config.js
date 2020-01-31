@@ -2,26 +2,27 @@ module.exports = {
   siteMetadata: {
     title: "Greener Grass",
     name: `Greener Grass`,
-    siteUrl: `https://change-request.github.io`,
-    description: `A blog about software engineering`,
+    siteUrl: `https://greenergrass.blog`,
+    description: `Software Engineering Blog`,
 
     // important to set the main text that appears in the hero
     hero: {
       heading: `Thoughts about the other side of the fence`,
-      maxWidth: 652
+      maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/chngrqst`
+        url: `https://twitter.com/grnrgrss`,
       },
       {
         name: `github`,
-        url: `https://github.com/change-request`
-      }
-    ]
+        url: `https://github.com/greenergrass-blog`,
+      },
+    ],
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
@@ -30,10 +31,10 @@ module.exports = {
         basePath: "/",
         sources: {
           local: true,
-          contentful: false
+          contentful: false,
         },
-        authorsPage: true
-      }
+        authorsPage: true,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -44,8 +45,16 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`
-      }
-    }
-  ]
+        icon: `src/assets/favicon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets-inline/,
+        },
+      },
+    },
+  ],
 };
